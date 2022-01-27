@@ -221,8 +221,8 @@ class MyAuthentication extends javax.mail.Authenticator {
 	javax.mail.PasswordAuthentication pa;
 
 	public MyAuthentication() {
-		String id = "seunghak173";
-		String pw = "gkrtmd12";
+		String id = "Emial ID";
+		String pw = "Email Password";
 
 		pa = new javax.mail.PasswordAuthentication(id, pw);
 	}
